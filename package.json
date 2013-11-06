@@ -1,0 +1,11 @@
+{
+  "name": "chickity-check",
+  "version": "0.0.1",
+  "description": "A command line DB tool",
+  "main": "index.js",
+  "dependencies": {
+    "mongoose": "~3.8.0",
+    "nomnom": "~1.6.2",
+    "moment": "latest"
+  }
+}
