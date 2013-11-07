@@ -48,7 +48,7 @@ function findAndDisplayKittens(exit) {
     else {
       // WE HAVE KITTENS! Now display them
       kittens.forEach(function(kitten){
-        console.log('[Kitten] '+kitten.name+' was found on '+moment(kitten.created).format('MMM Do YY'));
+        console.log('[Kitten-'+kitten.id+'] '+kitten.name+' was found on '+moment(kitten.created).format('MMM Do YY'));
       });
     }
     
